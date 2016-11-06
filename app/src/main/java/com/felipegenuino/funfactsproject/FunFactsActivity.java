@@ -29,6 +29,7 @@ public class FunFactsActivity extends AppCompatActivity {
         mUxMythButton = (Button) findViewById(R.id.UxMythButton);
         mRelativeLayout = (RelativeLayout) findViewById(R.id.UxMythRelativeLayout);
 
+
         View.OnClickListener listener =  new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +40,9 @@ public class FunFactsActivity extends AppCompatActivity {
                 //update de screen with our dynamic fact
                 mUxMythTitle.setText(myth);
                 mRelativeLayout.setBackgroundColor(color);
-            }
+                mUxMythButton.setTextColor(color);
+
+             }
         };
 
         mUxMythButton.setOnClickListener(listener);
