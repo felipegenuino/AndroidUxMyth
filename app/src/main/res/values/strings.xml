@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UX Myths</string>
+    <string name="UxMythTitle">Mito #1: As pessoas lêem na web</string>
+    <string name="UxMythButton">Mostre-me outro mito</string>
+</resources>
